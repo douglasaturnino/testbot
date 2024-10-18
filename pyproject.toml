@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "rossmann-dso-bot"
+version = "0.1.0"
+description = ""
+authors = ["Douglas Saturnino <douglasaturnino@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rossmann_dso_bot"}]
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+flask = "^2.3.2"
+requests = "^2.31.0"
+inflection = "0.5.1"
+seaborn = "^0.13.0"
+xgboost = "^2.0.1"
+boruta = "^0.3"
+pandas = "^2.1.2"
+numpy = "^1.26.1"
+scikit-learn = "^1.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
