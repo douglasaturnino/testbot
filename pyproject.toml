@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "rossmann_dso_bot"}]
 
 [tool.poetry.dependencies]
-python = "3.10.12"
+python = "3.12.3"
 flask = "^2.3.2"
 requests = "^2.31.0"
 inflection = "0.5.1"
